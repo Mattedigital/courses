@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Merriweather;
+  src: url('../media/fonts/Fira_Sans/FiraSans-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+html,
+body {
+  font-family: Merriweather;
+  font-weight: 300;
+}
+
+h1{
+  font-size: 1.8rem;
+}
+h4 {
+  margin: .8rem 0;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+}

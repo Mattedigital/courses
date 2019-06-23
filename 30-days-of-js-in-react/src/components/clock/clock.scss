@@ -1,0 +1,31 @@
+.clock {
+  position: relative;
+  margin: 50px auto;
+  padding: 2rem;
+  height: 30rem;
+  width: 30rem;
+  border: 20px solid #000000;
+  border-radius: 50%;
+}
+
+.clock-face {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transform: translateY(-3px); /* account for the height of the clock hands */
+}
+
+.hand {
+  position: absolute;
+  top: 50%;
+  height: 6px;
+  width: 50%;
+  background: #000000;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  transition: all .05s;
+  transition-timing-function: cubic-bezier(.1, 2.7, .58, 1);
+}
+.second-hand {
+  height: 2px;
+}

@@ -1,0 +1,22 @@
+body{
+  font-family: Merriweather, sans-serif;
+  background: linear-gradient($highlight, #f5aa2f);
+}
+
+img{
+  width: 100px;
+}
+
+.inline-img{
+  height: 100px;
+  width: 100px;
+  background-image: url('../media/images/placeholder04.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}

@@ -1,0 +1,42 @@
+//helpers
+@import '../../node_modules/reset-css/reset';
+@import 'variables';
+@import 'mixins';
+
+//global styles
+@import 'global';
+@import 'typesetting';
+
+//components
+@import '../components/ajaxTypeAhead/ajaxTypeAhead';
+@import '../components/arrayCardio01/arrayCardio01';
+@import '../components/arrayCardio02/arrayCardio02';
+@import '../components/clock/clock';
+@import '../components/cssVariables/cssVariables';
+@import '../components/drumkit/drumkit';
+@import '../components/flexPanelsGallery/flexPanelsGallery';
+@import '../components/html5Canvas/html5Canvas';
+@import '../components/nav/nav';
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 14px;
+}
+
+.title {
+  &--main {
+    padding: 50px;
+    font-size: 2rem;
+    text-align: center;
+
+    svg {
+      margin-left: 50px;
+    }
+  }
+}

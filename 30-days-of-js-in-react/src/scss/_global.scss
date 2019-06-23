@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+
+  &:after,
+  &:before {
+    box-sizing: Border-box;
+  }
+
+  &:selection {
+    background: $highlight;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}

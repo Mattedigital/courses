@@ -1,0 +1,19 @@
+## System and generated files
+.DS_Store
+.sass-cache
+*.map
+*.log
+package-lock.json
+npm-debug.log
+
+## Directories
+dist/
+node_modules/
+config/
+
+## Files
+udemy-complete-js-2019/forkify/src/js/config.js
+
+## Project Specific
+JavaScript30-master/
+complete-javascript-course-master/

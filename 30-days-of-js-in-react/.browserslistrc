@@ -1,0 +1,5 @@
+# Browsers that we support - note that this is potentially used by styelint, eslint, autoprefixer & more during compiling. This is a shared config.
+
+> 1%
+Last 2 versions
+IE 10
