@@ -10,10 +10,7 @@ npm-debug.log
 dist/
 node_modules/
 config/
+course-master/
 
 ## Files
 udemy-complete-js-2019/forkify/src/js/config.js
-
-## Project Specific
-JavaScript30-master/
-complete-javascript-course-master/
