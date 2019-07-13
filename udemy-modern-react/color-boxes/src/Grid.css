@@ -1,0 +1,8 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr [col-start]);
+  grid-template-rows: repeat(2, 1fr [row-start]);
+  grid-gap: 2px 2px;
+  height: 100vh;
+}
+
