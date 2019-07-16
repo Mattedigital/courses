@@ -5,7 +5,8 @@ class TodoItem extends Component {
     super(props);
     this.state = {
       isEditing: false,
-      title: this.props.taskData.taskTitle
+      title: this.props.taskData.taskTitle,
+      isComplete: false
     }
   }
 
@@ -29,6 +30,12 @@ class TodoItem extends Component {
     })
   }
 
+  handleCompletion = () => {
+    this.setState({
+      isComplete: !this.state.isComplete
+    })
+  }
+
   render() {
     const { title } = this.state;
     const form = (
@@ -40,7 +47,13 @@ class TodoItem extends Component {
     return (
       <li className="todo-item">
         {
-          this.state.isEditing ? form : title
+          this.state.isEditing ?
+            form :
+            <span
+              onClick={this.handleCompletion}
+              style={this.state.isComplete ? {textDecoration: 'line-through'} : {}}>
+              {title}
+            </span>
         }
         <button onClick={this.handleEdit}>Edit</button>
         <button onClick={this.props.triggerRemove}>Delete</button>
